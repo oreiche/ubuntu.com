@@ -1941,3 +1941,12 @@ ol.p-stepped-list.no-full-stop
     display: inline-block;
   }
 }
+
+// Apply to `grid-col-*` element to make it sticky within its 
+// parent container.
+.u-sticky-col {
+  position: sticky; 
+  top: $spv--strip-shallow; // Account for navigation
+  z-index: 1; 
+  align-self: start;
+}
